@@ -1,0 +1,45 @@
+/* Footer one is the formatting for the Fauculty of Computer Science link*/
+#footerOne{
+    bottom:-393px;
+}
+
+#god{
+    background-color: #353333;
+    color:white;
+}
+#column{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.headings {
+    width:180px;
+    height: 40px;
+    padding: 40px;
+
+
+}
+.heading{
+    width:180px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: underline;
+}	
+
+/* Footer two is the formatting for the creators of the website*/
+#footerTwo{
+    bottom: -410px;
+}
+
+/* Highlights proper link on Navigation bar*/
+.Home :visited{
+    color: rgba(139, 228, 131, 0.911);
+}

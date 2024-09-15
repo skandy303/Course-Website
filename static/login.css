@@ -1,0 +1,46 @@
+/* Footer one is the formatting for the Fauculty of Computer Science link*/
+#footerOne{
+    bottom:16px;
+}
+
+/* Footer two is the formatting for the creators of the website*/
+#footerTwo{
+    bottom:0;
+}
+#textBox{
+
+    width: 29%;
+}
+
+/* Format input boxes and buttons*/
+.submit{
+    color: white;
+    font-size: 14px;
+    background-color: #353333;
+}
+input[type=submit]{
+    padding: 8px;
+    width: 15%;
+    color: white;
+    font-size: 14px;
+    background-color: #353333;
+}
+form{
+    max-width: 480px;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea{
+    background-color: #353333;
+    font-size: 14px;
+    padding: 8px 18px;
+    height: 10px;
+    width: 92%;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+  }

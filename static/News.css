@@ -1,0 +1,21 @@
+/* Footer one is the formatting for the Fauculty of Computer Science link*/
+#footerOne{
+    width:174%;
+    bottom:96px;
+}
+
+/* Footer two is the formatting for the creators of the website*/
+#footerTwo{
+    width: 174%;
+    bottom:80px;
+}
+
+/* Disables vertical scrolling*/
+html, body {
+    overflow-y: hidden;
+}
+
+/* Highlights proper link on Navigation bar*/
+.News :visited{
+    color:  rgba(139, 228, 131, 0.877);
+}

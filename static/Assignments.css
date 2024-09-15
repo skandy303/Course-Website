@@ -1,0 +1,14 @@
+/* Footer one is the formatting for the Fauculty of Computer Science link*/
+#footerOne{
+    bottom:16px;
+}
+
+/* Footer two is the formatting for the creators of the website*/
+#footerTwo{
+    bottom:0;
+}
+
+/* Highlights proper link on Navigation bar*/
+.Assignments :visited{
+    color:  rgba(139, 228, 131, 0.877);
+}

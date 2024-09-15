@@ -1,0 +1,50 @@
+/* This is a general template for tables using flexbox*/
+
+/* Formats multi-column spanning header differently*/
+#head1 {
+    justify-content:space-evenly;
+}
+
+/* General formatting for table*/
+.assignmentContent, .assignmentContentHead{
+    font-weight:100;
+    color: white;
+    background-color: #353333;
+    height: 8%;
+    width: 85%;
+    display: flex;
+    position:relative;
+    justify-content:space-around;
+    flex-direction: row;
+    line-height: 4vh;
+}
+
+/* Formats each entry*/
+.box{
+    width:10%;
+}
+
+/* Formats non-header rows*/
+.assignmentContent{
+    font-size: 14px;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+/* Formats heafer rows*/
+.assignmentContentHead{
+    font-size: 18px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+/* Format for links*/
+.assignmentContent :link, .assignmentContentHead :link{
+    text-decoration: underline;
+}
+.assignmentContent :active, .assignmentContent :focus{
+    text-decoration:none;
+}
+
+/* Formats boxes for multi-column spanning header*/
+.headBox{
+    padding: 5px;
+}
